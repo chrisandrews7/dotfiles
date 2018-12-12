@@ -1,5 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:${HOME}/go/bin:$PATH"
 
 ZSH_THEME=""
 
