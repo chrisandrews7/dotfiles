@@ -7,3 +7,6 @@ plugins=(git sudo zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
+
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
