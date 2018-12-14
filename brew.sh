@@ -13,4 +13,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Vscode
 code --install-extension dbaeumer.vscode-eslint 
 code --install-extension bukas.projects
+code --install-extension hnw.vscode-auto-open
 ln "${HOME}/.vscode.settings.json" "${HOME}/Library/Application Support/Code/User/settings.json"
