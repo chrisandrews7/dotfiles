@@ -1,5 +1,10 @@
 {
-    "projects.projectsLocation": "$home/projects",
-    "projects.openInNewWindow": false,
-    "editor.tabSize": 2
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "projects.openInNewWindow": false,
+  "projects.projectsLocation": ["$home/projects"],
+  "extensions.autoUpdate": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.rendererType": "dom",
+  "window.zoomLevel": -1
 }
