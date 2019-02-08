@@ -1,7 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH="/usr/local/sbin:${HOME}/go/bin:$PATH"
 
-ZSH_THEME=""
+ZSH_THEME="arrow"
 
 plugins=(git sudo zsh-autosuggestions)
 
