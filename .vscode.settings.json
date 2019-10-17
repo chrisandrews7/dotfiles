@@ -5,6 +5,5 @@
   "projects.projectsLocation": ["$home/projects"],
   "extensions.autoUpdate": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "terminal.integrated.rendererType": "dom",
   "window.zoomLevel": -1
 }

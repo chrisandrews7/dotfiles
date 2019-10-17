@@ -1,12 +1,9 @@
 export ZSH=$HOME/.oh-my-zsh
-export PATH="/usr/local/sbin:${HOME}/go/bin:$PATH"
 
 ZSH_THEME="arrow"
-
-plugins=(git sudo zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 
-export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
