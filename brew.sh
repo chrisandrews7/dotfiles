@@ -4,7 +4,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 brew install node nvm git zsh jq go
-brew cask install google-chrome spotify slack visual-studio-code docker postman iterm2 mongodb-compass
+brew cask install google-chrome spotify slack visual-studio-code docker postman iterm2 mongodb-compass wireshark
 brew cleanup
 
 # Oh-my-zsh
