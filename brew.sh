@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
 brew install node nvm git zsh jq go
 brew cask install google-chrome spotify slack visual-studio-code docker postman iterm2 mongodb-compass wireshark
