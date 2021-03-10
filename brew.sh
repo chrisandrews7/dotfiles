@@ -3,7 +3,7 @@
 # Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
-brew install node nvm git zsh jq go
+brew install node nvm git zsh jq go modd mockery
 brew cask install google-chrome spotify slack visual-studio-code docker postman iterm2 mongodb-compass wireshark
 brew cleanup
 
